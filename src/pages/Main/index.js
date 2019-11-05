@@ -64,8 +64,8 @@ export default function Main() {
       try {
         const response = await api.get(`/rest/api/2/issue/Ei-${manu}`, {
           auth: {
-            username: 'desenvolvimento@elinfo.com.br',
-            password: 'A7AcyZztDIAiu7HmnU02A313',
+            username: 'teste@elinfo.com.br',
+            password: 'teste',
           },
         });
         const data = {
